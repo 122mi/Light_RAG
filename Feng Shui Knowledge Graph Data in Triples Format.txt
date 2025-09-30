@@ -1,0 +1,262 @@
+# Feng Shui Knowledge Graph Data in Triples Format
+# Format Subject  Predicate  Object
+# This structure is optimized for embedding models to build a knowledge graph.
+
+# --- Part I Core & Philosophical Concepts ---
+
+风水  has_pinyin  fēng shuǐ
+风水  has_english_name  Feng Shui
+风水  is_in_category  核心与哲学概念
+风水  has_explanation  The ancient Chinese art and science of harmonizing individuals with their surrounding environment to improve health, wealth, and harmony. The name literally translates to wind and water.
+
+气  has_pinyin  qì
+气  has_english_name  Qi  Ch'i
+气  is_in_category  核心与哲学概念
+气  has_explanation  The vital life force, cosmic breath, or energy field believed to exist in all things. The goal of Feng Shui is to optimize the flow of Qi.
+
+阴阳  has_pinyin  yīn yáng
+阴阳  has_english_name  Yin & Yang
+阴阳  is_in_category  核心与哲学概念
+阴阳  has_explanation  A core philosophical concept describing how seemingly opposite or contrary forces are actually complementary and interconnected. Yin represents passivity, darkness, and femininity; Yang represents activity, light, and masculinity. The key is to achieve balance.
+
+五行  has_pinyin  wǔ xíng
+五行  has_english_name  The Five Elements  Phases
+五行  is_in_category  核心与哲学概念
+五行  has_explanation  Wood (木), Fire (火), Earth (土), Metal (金), and Water (水). These elements interact in cycles of generation and control, forming the basis of dynamic balance in the universe and Feng Shui analysis.
+五行  includes_concept  相生
+五行  includes_concept  相克
+五行  includes_concept  相泄
+
+相生  has_pinyin  xiāng shēng
+相生  has_english_name  Generation  Productive Cycle
+相生  is_subconcept_of  五行
+相生  has_explanation  The cycle where one element creates or nourishes another Wood feeds Fire, Fire creates Earth, Earth bears Metal, Metal carries Water, Water nourishes Wood.
+
+相克  has_pinyin  xiāng kè
+相克  has_english_name  Control  Destructive Cycle
+相克  is_subconcept_of  五行
+相克  has_explanation  The cycle where one element controls or overcomes another Wood parts Earth, Earth absorbs Water, Water extinguishes Fire, Fire melts Metal, Metal chops Wood.
+
+相泄  has_pinyin  xiāng xiè (hào)
+相泄  has_english_name  Weakening  Reductive Cycle
+相泄  is_subconcept_of  五行
+相泄  has_explanation  The process of reducing the strength of an overly dominant element by using the element it produces. For example, if Wood is too strong, Fire is used to exhaust it.
+
+八卦  has_pinyin  bā guà
+八卦  has_english_name  The Eight Trigrams
+八卦  is_in_category  核心与哲学概念
+八卦  has_explanation  The eight symbols composed of three lines (yao) each, representing the fundamental elements and concepts of nature.
+八卦  includes_concept  先天八卦
+八卦  includes_concept  后天八卦
+
+先天八卦  has_pinyin  xiān tiān bā guà
+先天八卦  has_english_name  Early Heaven Bagua  Primal Bagua
+先天八卦  is_type_of  八卦
+先天八卦  has_explanation  Attributed to Fu Xi, it describes the universe in a state of perfect balance and harmony. It is often used as a theoretical basis or in Yin House (gravesite) Feng Shui.
+
+后天八卦  has_pinyin  hòu tiān bā guà
+后天八卦  has_english_name  Later Heaven Bagua  Manifested Bagua
+后天八卦  is_type_of  八卦
+后天八卦  has_explanation  Attributed to King Wen, it describes the universe in a state of continuous change and interaction. It is primarily used in Yang House (living space) Feng Shui and corresponds to geographical directions.
+
+河图洛书  has_pinyin  hé tú luò shū
+河图洛书  has_english_name  He Tu & Luo Shu Maps
+河图洛书  is_in_category  核心与哲学概念
+河图洛书  has_explanation  Ancient cosmological diagrams revealing the patterns of energy. The He Tu represents the 'body' or source, while the Luo Shu represents the 'application' or flow. They are the theoretical foundation for Compass School methods like Flying Stars.
+
+太极  has_pinyin  tài jí
+太极  has_english_name  Tai Ji  The Supreme Ultimate
+太极  is_in_category  核心与哲学概念
+太极  has_explanation  The primordial state of the universe, representing the undifferentiated unity from which Yin and Yang arise. In Feng Shui, it often refers to the energetic center of a space.
+
+天人合一  has_pinyin  tiān rén hé yī
+天人合一  has_english_name  Unity of Heaven, Earth, and Man
+天人合一  is_in_category  核心与哲学概念
+天人合一  has_explanation  A philosophical ideal that humans are an integral part of the universe and that our dwellings should be in harmony with the natural environment.
+
+藏风聚气  has_pinyin  cáng fēng jù qì
+藏风聚气  has_english_name  Conceal Wind & Gather Qi
+藏风聚气  is_in_category  核心与哲学概念
+藏风聚气  has_explanation  The fundamental principle of an ideal Feng Shui location it should be sheltered from harsh winds (which disperse Qi) and situated to collect beneficial, vital energy.
+
+# --- Part II YinYang Dwellings & Classifications ---
+
+阳宅  has_pinyin  yáng zhái
+阳宅  has_english_name  Yang House  Dwelling for the Living
+阳宅  is_in_category  阴阳宅与分类
+阳宅  has_explanation  Refers to the Feng Shui of buildings for the living, such as homes, offices, and businesses.
+阳宅  is_opposite_of  阴宅
+
+阴宅  has_pinyin  yīn zhái
+阴宅  has_english_name  Yin House  Dwelling for the Deceased
+阴宅  is_in_category  阴阳宅与分类
+阴宅  has_explanation  Refers to the Feng Shui of graves and tombs. It is believed to have a profound impact on the fortune and well-being of the descendants.
+阴宅  is_opposite_of  阳宅
+
+# --- Part III FormLandscape School Terminology (峦头 Luan Tou) ---
+
+峦头  has_pinyin  luán tóu
+峦头  has_english_name  Landform Analysis  Form School
+峦头  is_in_category  峦头派术语
+峦头  has_explanation  The oldest school of Feng Shui, which judges fortune by observing and analyzing the shapes and forms of the physical environment (mountains, rivers, buildings).
+峦头  includes_concept  青龙
+峦头  includes_concept  白虎
+峦头  includes_concept  朱雀
+峦头  includes_concept  玄武
+峦头  includes_concept  明堂
+峦头  includes_concept  龙脉
+峦头  includes_concept  穴
+峦头  includes_concept  砂
+峦头  includes_concept  水
+峦头  analyzes  形煞
+
+青龙  has_pinyin  qīng lóng
+青龙  has_english_name  Green Dragon
+青龙  is_type_of  四象
+青龙  represents  男性贵人
+青龙  represents  权势
+青龙  has_explanation  The hills or buildings on the left side of a property (when looking out from the front door). It represents support, male benefactors, and authority. Ideally, it should be slightly higher than the White Tiger.
+
+白虎  has_pinyin  bái hǔ
+白虎  has_english_name  White Tiger
+白虎  is_type_of  四象
+白虎  represents  女性贵人
+白虎  represents  财富
+白虎  has_explanation  The hills or buildings on the right side of a property. It represents protection, female benefactors, and wealth. Ideally, it should be slightly lower than the Green Dragon.
+
+朱雀  has_pinyin  zhū què
+朱雀  has_english_name  Vermilion Bird  Red Phoenix
+朱雀  is_type_of  四象
+朱雀  represents  机遇
+朱雀  represents  前景
+朱雀  has_explanation  The open space or a low hill in front of the property, also known as the Bright Hall. It represents opportunities and future prospects.
+
+玄武  has_pinyin  xuán wǔ
+玄武  has_english_name  Black Tortoise  Dark Warrior
+玄武  is_type_of  四象
+玄武  represents  支持
+玄武  represents  稳定
+玄武  has_explanation  The mountain or tall building behind the property, providing backing. It represents support, stability, and health.
+
+煞气  has_pinyin  shà qì
+煞气  has_english_name  Sha Qi  Killing Energy
+煞气  is_in_category  峦头派术语
+煞气  has_explanation  Any form of negative, harmful, or aggressive energy that adversely affects a dwelling or its occupants, often created by hostile external or internal forms.
+
+路冲  has_pinyin  lù chōng
+路冲  has_english_name  T-Junction Sha
+路冲  is_type_of  形煞
+路冲  has_explanation  A property located at the end of a T-junction, directly facing a straight road. This creates a forceful rush of Sha Qi, associated with accidents and misfortune.
+
+反弓煞  has_pinyin  fǎn gōng shà
+反弓煞  has_english_name  Cutting Sha  Reverse Bow Sha
+反弓煞  is_type_of  形煞
+反弓煞  has_explanation  A property facing the outside curve of a road or river, which cuts towards it like a blade. Associated with financial loss and relationship problems.
+
+天斩煞  has_pinyin  tiān zhǎn shà
+天斩煞  has_english_name  Slit Heaven Sha  Gap Sha
+天斩煞  is_type_of  形煞
+天斩煞  has_explanation  Facing the narrow gap between two tall buildings, which funnels wind and creates a sharp, cutting Qi. Associated with accidents, surgery, and serious health issues.
+
+# --- Part IV Compass School Terminology (理气 Li Qi) ---
+
+理气  has_pinyin  lǐ qì
+理气  has_english_name  Qi-Pattern Analysis  Compass School
+理气  is_in_category  理气派术语
+理气  has_explanation  A collection of methods that use the Luo Pan compass, formulas, and time cycles to calculate and analyze the patterns of intangible energy (Qi) in a space.
+理气  uses_tool  罗盘
+理气  includes_method  八宅
+理气  includes_method  玄空飞星
+
+坐向  has_pinyin  zuò xiàng
+坐向  has_english_name  Sitting & Facing Direction
+坐向  is_concept_in  理气派术语
+坐向  has_explanation  The orientation of a building. The Sitting direction is the back, and the Facing direction is the front. This is the most critical parameter for all Compass School calculations.
+
+二十四山  has_pinyin  èr shí sì shān
+二十四山  has_english_name  The 24 Mountains
+二十四山  is_concept_in  理气派术语
+二十四山  has_explanation  The 24 precise directions on a Luo Pan, each spanning 15 degrees. They are composed of the 12 Earthly Branches, 8 Heavenly Stems, and 4 trigrams.
+
+八宅  has_pinyin  bā zhái
+八宅  has_english_name  Ba Zhai  Eight Mansions
+八宅  is_method_of  理气
+八宅  includes_concept  命卦
+八宅  includes_concept  宅卦
+八宅  includes_concept  四吉星
+八宅  includes_concept  四凶星
+八宅  has_explanation  A Feng Shui method that matches a person's personal Gua (Life Gua) with the house's Gua (House Gua) to determine auspicious and inauspicious directions.
+
+命卦  has_pinyin  mìng guà
+命卦  has_english_name  Life Gua  Ming Gua
+命卦  is_concept_in  八宅
+命卦  is_calculated_from  出生年份
+命卦  is_calculated_from  性别
+命卦  has_explanation  A person's personal trigram, calculated from their birth year and gender. People are categorized into East Group and West Group.
+
+玄空飞星  has_pinyin  xuán kōng fēi xīng
+玄空飞星  has_english_name  Xuan Kong Fei Xing  Flying Stars
+玄空飞星  is_method_of  理气
+玄空飞星  includes_concept  三元九运
+玄空飞星  includes_concept  飞星盘
+玄空飞星  includes_concept  山星
+玄空飞星  includes_concept  向星
+玄空飞星  includes_formation  旺山旺向
+玄空飞星  includes_formation  上山下水
+玄空飞星  has_explanation  A complex Feng Shui system that analyzes the influence of time on a building by mapping the movement of nine stars through its nine sectors.
+
+三元九运  has_pinyin  sān yuán jiǔ yùn
+三元九运  has_english_name  Three Cycles, Nine Periods
+三元九运  is_concept_in  玄空飞星
+三元九运  has_duration  180 years
+三元九运  has_explanation  A 180-year cycle of time, divided into three 60-year cycles (Yuan) and nine 20-year periods (Yun). Each period is ruled by a specific star, influencing global energy patterns.
+
+旺山旺向  has_pinyin  wàng shān wàng xiàng
+旺山旺向  has_english_name  Prosperous Mountain, Prosperous Direction
+旺山旺向  is_formation_in  玄空飞星
+旺山旺向  has_quality  吉
+旺山旺向  has_explanation  The most auspicious Flying Star configuration. It occurs when the timely Mountain Star is in the sitting palace and the timely Facing Star is in the facing palace. It indicates prosperity in both health and wealth.
+
+上山下水  has_pinyin  shàng shān xià shuǐ
+上山下水  has_english_name  Mountain to Water, Water to Mountain
+上山下水  is_formation_in  玄空飞星
+上山下水  has_quality  凶
+上山下水  has_explanation  The most inauspicious Flying Star configuration. It occurs when the timely Mountain Star flies to the facing (water) position, and the timely Facing Star flies to the sitting (mountain) position. It signifies loss of wealth and harm to people.
+
+# --- Part V Tools, Cures & Enhancements ---
+
+罗盘  has_pinyin  luó pán
+罗盘  has_english_name  Luo Pan
+罗盘  is_type_of  风水工具
+罗盘  is_used_by  理气
+罗盘  has_explanation  A professional Feng Shui compass. It is a complex tool with multiple rings of information, used for taking precise directional measurements and analyzing Qi.
+
+化煞  has_pinyin  huà shà
+化煞  has_english_name  Cure  Remedy  Mitigate Sha Qi
+化煞  is_type_of  风水实践
+化煞  has_goal  化解煞气
+化煞  has_explanation  The practice of using specific objects or methods to dissolve, block, or transform negative energy (Sha Qi).
+
+泰山石敢当  has_pinyin  tài shān shí gǎn dāng
+泰山石敢当  has_english_name  Tai Shan Shi Gan Dang
+泰山石敢当  is_type_of  化煞工具
+泰山石敢当  is_used_for  化解路冲
+泰山石敢当  has_explanation  An inscribed stone tablet from Mount Tai, often used to face a T-junction or remedy a missing corner. It is believed to have a powerful effect in blocking Sha Qi.
+
+葫芦  has_pinyin  hú lu
+葫芦  has_english_name  Gourd  Calabash
+葫芦  is_type_of  化煞工具
+葫芦  is_used_for  化解病气
+葫芦  has_explanation  Its shape is believed to absorb sickness and negative Qi. It's often used as a remedy for inauspicious illness stars (like the #2 star).
+
+五帝钱  has_pinyin  wǔ dì qián
+五帝钱  has_english_name  Five Emperors Coins
+五帝钱  is_type_of  化煞工具
+五帝钱  is_type_of  催财工具
+五帝钱  has_explanation  A string of five brass coins from the five most prosperous reigns of the Qing dynasty. Used to remedy negative Qi and attract wealth.
+
+财位  has_pinyin  cái wèi
+财位  has_english_name  Wealth Position
+财位  is_concept_in  室内风水
+财位  has_purpose  催旺财运
+财位  has_explanation  The area in a home or room that governs wealth luck. This can be a general position (e.g., the diagonal corner from the entrance) or a specific location calculated by Flying Stars.

@@ -1,0 +1,285 @@
+# --- Part I Core & Foundational Concepts ---
+
+八字  has_pinyin  bā zì
+八字  has_english_name  The Eight Characters  Bazi
+八字  is_in_category  核心与基础概念
+八字  has_explanation  A Chinese astrological system that analyzes a person's destiny and personality based on the eight characters representing their birth year, month, day, and hour.
+八字  is_also_known_as  四柱命理学
+四柱命理学  has_pinyin  sì zhù mìng lǐ xué
+四柱命理学  has_english_name  The Study of Four Pillars of Destiny
+四柱命理学  is_in_category  核心与基础概念
+四柱命理学  has_explanation  The formal name for Bazi, emphasizing the analysis of the four pillars that constitute a person's fate.
+日主  has_pinyin  rì zhǔ
+日主  has_english_name  Day Master  Day Stem
+日主  is_in_category  核心与基础概念
+日主  has_explanation  The Heavenly Stem of the Day Pillar. It is the most important character in the chart as it represents the self, the core personality of the individual.
+命盘  has_pinyin  mìng pán
+命盘  has_english_name  Bazi Chart  Natal Chart
+命盘  is_in_category  核心与基础概念
+命盘  has_explanation  The complete chart of the Four Pillars, laying out the eight characters and supplementary information such as Luck Pillars and Ten Gods.
+大运  has_pinyin  dà yùn
+大运  has_english_name  Luck Pillar  Decade Luck
+大运  is_in_category  核心与基础概念
+大运  has_explanation  Represents a ten-year period of a person's life, governed by a specific pair of Heavenly Stem and Earthly Branch, indicating the major influences during that decade.
+流年  has_pinyin  liú nián
+流年  has_english_name  Annual Pillar  Passing Year
+流年  is_in_category  核心与基础概念
+流年  has_explanation  The Heavenly Stem and Earthly Branch of a particular year, which interacts with the natal chart and Luck Pillars to influence a person's fortune for that year.
+
+# --- Part II The Four Pillars (四柱) ---
+
+四柱  has_pinyin  sì zhù
+四柱  has_english_name  The Four Pillars
+四柱  is_in_category  四柱
+四柱  has_explanation  The foundational structure of a Bazi chart, consisting of the Year Pillar, Month Pillar, Day Pillar, and Hour Pillar.
+四柱  includes_concept  年柱
+四柱  includes_concept  月柱
+四柱  includes_concept  日柱
+四柱  includes_concept  时柱
+年柱  has_pinyin  nián zhù
+年柱  has_english_name  Year Pillar
+年柱  is_type_of  四柱
+年柱  represents  Ancestors, parents, early life (childhood), external environment, social circle.
+月柱  has_pinyin  yuè zhù
+月柱  has_english_name  Month Pillar
+月柱  is_type_of  四柱
+月柱  represents  Parents, siblings, career, work environment, formative years (youth). It also indicates the season of birth.
+日柱  has_pinyin  rì zhù
+日柱  has_english_name  Day Pillar
+日柱  is_type_of  四柱
+日柱  represents  The self (Day Master) and the spouse (Day Branch), middle age, one's own body, and intimate relationships.
+时柱  has_pinyin  shí zhù
+时柱  has_english_name  Hour Pillar
+时柱  is_type_of  四柱
+时柱  represents  Children, subordinates, investments, ambitions, and later life (old age).
+
+# --- Part III Stems & Branches (干支) ---
+
+天干  has_pinyin  tiān gān
+天干  has_english_name  Heavenly Stems
+天干  is_in_category  干支
+天干  has_explanation  A set of ten characters representing the five elements in their Yin and Yang polarities, forming the upper character in a pillar.
+天干  includes_element  甲
+天干  includes_element  乙
+天干  includes_element  丙
+天干  includes_element  丁
+天干  includes_element  戊
+天干  includes_element  己
+天干  includes_element  庚
+天干  includes_element  辛
+天干  includes_element  壬
+天干  includes_element  癸
+甲  has_pinyin  jiǎ
+甲  has_english_name  Jia Wood
+甲  is_type_of  天干
+甲  is_element  阳木 (Yang Wood)
+乙  has_pinyin  yǐ
+乙  has_english_name  Yi Wood
+乙  is_type_of  天干
+乙  is_element  阴木 (Yin Wood)
+丙  has_pinyin  bǐng
+丙  has_english_name  Bing Fire
+丙  is_type_of  天干
+丙  is_element  阳火 (Yang Fire)
+丁  has_pinyin  dīng
+丁  has_english_name  Ding Fire
+丁  is_type_of  天干
+丁  is_element  阴火 (Yin Fire)
+戊  has_pinyin  wù
+戊  has_english_name  Wu Earth
+戊  is_type_of  天干
+戊  is_element  阳土 (Yang Earth)
+己  has_pinyin  jǐ
+己  has_english_name  Ji Earth
+己  is_type_of  天干
+己  is_element  阴土 (Yin Earth)
+庚  has_pinyin  gēng
+庚  has_english_name  Geng Metal
+庚  is_type_of  天干
+庚  is_element  阳金 (Yang Metal)
+辛  has_pinyin  xīn
+辛  has_english_name  Xin Metal
+辛  is_type_of  天干
+辛  is_element  阴金 (Yin Metal)
+壬  has_pinyin  rén
+壬  has_english_name  Ren Water
+壬  is_type_of  天干
+壬  is_element  阳水 (Yang Water)
+癸  has_pinyin  guǐ
+癸  has_english_name  Gui Water
+癸  is_type_of  天干
+癸  is_element  阴水 (Yin Water)
+
+地支  has_pinyin  dì zhī
+地支  has_english_name  Earthly Branches
+地支  is_in_category  干支
+地支  has_explanation  A set of twelve characters, commonly known as the Chinese Zodiac animals, representing the lower character in a pillar. They relate to time, direction, and seasons.
+地支  includes_element  子
+地支  includes_element  丑
+地支  includes_element  寅
+地支  includes_element  卯
+地支  includes_element  辰
+地支  includes_element  巳
+地支  includes_element  午
+地支  includes_element  未
+地支  includes_element  申
+地支  includes_element  酉
+地支  includes_element  戌
+地支  includes_element  亥
+子  has_pinyin  zǐ
+子  has_english_name  Rat
+子  is_type_of  地支
+丑  has_pinyin  chǒu
+丑  has_english_name  Ox
+丑  is_type_of  地支
+寅  has_pinyin  yín
+寅  has_english_name  Tiger
+寅  is_type_of  地支
+卯  has_pinyin  mǎo
+卯  has_english_name  Rabbit
+卯  is_type_of  地支
+辰  has_pinyin  chén
+辰  has_english_name  Dragon
+辰  is_type_of  地支
+巳  has_pinyin  sì
+巳  has_english_name  Snake
+巳  is_type_of  地支
+午  has_pinyin  wǔ
+午  has_english_name  Horse
+午  is_type_of  地支
+未  has_pinyin  wèi
+未  has_english_name  Goat
+未  is_type_of  地支
+申  has_pinyin  shēn
+申  has_english_name  Monkey
+申  is_type_of  地支
+酉  has_pinyin  yǒu
+酉  has_english_name  Rooster
+酉  is_type_of  地支
+戌  has_pinyin  xū
+戌  has_english_name  Dog
+戌  is_type_of  地支
+亥  has_pinyin  hài
+亥  has_english_name  Pig
+亥  is_type_of  地支
+藏干  has_pinyin  cáng gān
+藏干  has_english_name  Hidden Stems
+藏干  is_in_category  干支
+藏干  has_explanation  The Heavenly Stems that are hidden within an Earthly Branch, representing latent talents, hidden characteristics, and deeper relationship dynamics.
+
+# --- Part IV The Ten Gods (十神) ---
+
+十神  has_pinyin  shí shén
+十神  has_english_name  The Ten Gods
+十神  is_in_category  十神
+十神  has_explanation  A core concept in Bazi analysis representing the relationship between the Day Master and the other Heavenly Stems in the chart. Each God represents a specific aspect of life, personality trait, and type of relationship.
+十神  is_based_on  日主 (Day Master)
+十神  is_based_on  五行 (Five Elements)
+十神  includes_concept  比肩
+十神  includes_concept  劫财
+十神  includes_concept  食神
+十神  includes_concept  伤官
+十神  includes_concept  正财
+十神  includes_concept  偏财
+十神  includes_concept  正官
+十神  includes_concept  七杀
+十神  includes_concept  正印
+十神  includes_concept  偏印
+比肩  has_pinyin  bǐ jiān
+比肩  has_english_name  Friend  Peer
+比肩  is_type_of  十神
+比肩  represents  Friends, peers, siblings of the same gender, self-confidence, competitiveness.
+劫财  has_pinyin  jié cái
+劫财  has_english_name  Rob Wealth  Rival
+劫财  is_type_of  十神
+劫财  represents  Rivals, siblings of the opposite gender, expenses, ambition, social skills.
+食神  has_pinyin  shí shén
+食神  has_english_name  Eating God
+食神  is_type_of  十神
+食神  represents  Creativity, ideas, children (for female), enjoyment, freedom, expression.
+伤官  has_pinyin  shāng guān
+伤官  has_english_name  Hurting Officer
+伤官  is_type_of  十神
+伤官  represents  Rebellion, intelligence, performance, talent, children (for female), sharp tongue.
+正财  has_pinyin  zhèng cái
+正财  has_english_name  Direct Wealth
+正财  is_type_of  十神
+正财  represents  Stable income, wife (for male), assets, diligence, pragmatism.
+偏财  has_pinyin  piān cái
+偏财  has_english_name  Indirect Wealth
+偏财  is_type_of  十神
+偏财  represents  Windfall, father, mistress (for male), business, generosity, social networking.
+正官  has_pinyin  zhèng guān
+正官  has_english_name  Direct Officer
+正官  is_type_of  十神
+正官  represents  Authority, husband (for female), career, reputation, discipline, law-abiding.
+七杀  has_pinyin  qī shā
+七杀  has_english_name  Seven Killings  Indirect Officer
+七杀  is_type_of  十神
+七杀  represents  Challenges, lover (for female), power, stress, risk-taking, charisma.
+正印  has_pinyin  zhèng yìn
+正印  has_english_name  Direct Resource
+正印  is_type_of  十神
+正印  represents  Mother, support, knowledge, comfort, kindness, academic learning.
+偏印  has_pinyin  piān yìn
+偏印  has_english_name  Indirect Resource  枭神 (xiāo shén)
+偏印  is_type_of  十神
+偏印  represents  Unconventional knowledge, step-mother, intuition, solitude, metaphysics.
+
+# --- Part V Stems & Branches Interactions ---
+
+合  has_pinyin  hé
+合  has_english_name  Combination
+合  is_in_category  干支关系
+合  has_explanation  An auspicious interaction where certain Stems or Branches combine to produce a new element, representing harmony, attraction, and cooperation.
+冲  has_pinyin  chōng
+冲  has_english_name  Clash
+冲  is_in_category  干支关系
+冲  has_explanation  A direct conflict between two Branches, often indicating sudden changes, accidents, or discord.
+刑  has_pinyin  xíng
+刑  has_english_name  Punishment
+刑  is_in_category  干支关系
+刑  has_explanation  A troublesome relationship between Branches that can lead to hidden problems, frustrations, legal issues, or health problems.
+害  has_pinyin  hài
+害  has_english_name  Harm
+害  is_in_category  干支关系
+害  has_explanation  An interaction between Branches that signifies betrayal, backstabbing, or separation from loved ones.
+破  has_pinyin  pò
+破  has_english_name  Break  Destruction
+破  is_in_category  干支关系
+破  has_explanation  An interaction between Branches that indicates damage, breaking of relationships, and spending money.
+
+# --- Part VI Chart Structures & Symbolic Stars ---
+
+格局  has_pinyin  gé jú
+格局  has_english_name  Chart Structure  Pattern
+格局  is_in_category  图表结构与神煞
+格局  has_explanation  The overall structure or classification of a Bazi chart, determined by the dominant element and its relationship with the Day Master, indicating the fundamental quality of the chart.
+身强  has_pinyin  shēn qiáng
+身强  has_english_name  Strong Self  Strong Day Master
+身强  is_type_of  日主旺衰
+身强  has_explanation  Indicates a Day Master that is well-supported by the elements in the chart, often suggesting a person is resourceful, independent, and resilient.
+身弱  has_pinyin  shēn ruò
+身弱  has_english_name  Weak Self  Weak Day Master
+身弱  is_type_of  日主旺衰
+身弱  has_explanation  Indicates a Day Master that lacks support from the elements in the chart, often suggesting a person may need more support from others and may be more susceptible to external influences.
+神煞  has_pinyin  shén shā
+神煞  has_english_name  Symbolic Stars  Gods and Killings
+神煞  is_in_category  图表结构与神煞
+神煞  has_explanation  Auxiliary 'stars' derived from specific combinations of Stems and Branches that provide additional, nuanced details about a person's character and luck.
+桃花  has_pinyin  táo huā
+桃花  has_english_name  Peach Blossom
+桃花  is_type_of  神煞
+桃花  represents  Romance, attractiveness, charm, and social relationships.
+驿马  has_pinyin  yì mǎ
+驿马  has_english_name  Traveling Horse
+驿马  is_type_of  神煞
+驿马  represents  Movement, travel, changes in job or residence.
+贵人  has_pinyin  guì rén
+贵人  has_english_name  Nobleman Star
+贵人  is_type_of  神煞
+贵人  represents  Helpful people, benefactors, ability to turn misfortune into fortune.
+华盖  has_pinyin  huá gài
+华盖  has_english_name  Elegant Seal
+华盖  is_type_of  神煞
+华盖  represents  Talent in arts and literature, intelligence, but also potential for loneliness or interest in religion/spirituality.
