@@ -1,0 +1,5 @@
+RAG知识库
+app1:风水知识库
+YouTube：社区规则知识库
+zgjm_deepseeek:使用deepseek模型训练的周公解梦知识
+zgjm_gemma:使用gemma模型训练的周公解梦知识
